@@ -1,0 +1,29 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.918);
+    margin: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+div.cursos {
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 225px 225px;
+}
