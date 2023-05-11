@@ -4,7 +4,7 @@
 
 body {
     background-color: rgba(0, 0, 0, 0.918);
-    margin: 50px;
+    margin: 100px;
 }
 
 h1, h2 {
@@ -25,5 +25,5 @@ div.cursos {
     padding: 20px;
     justify-content: center;
     display: grid;
-    grid-template-columns: 225px 225px;
+    grid-template-columns: 250px 250px;
 }

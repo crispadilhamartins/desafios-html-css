@@ -1,5 +1,6 @@
 * {
     color: white;
+    text-decoration: none;
 }
 
 body {
@@ -16,7 +17,7 @@ h1 {
     font-size: 35px;
 }
 
-.html{
+.python{
     display: flex;
     justify-content: center;
     align-items: center;
