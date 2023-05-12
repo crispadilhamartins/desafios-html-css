@@ -1,5 +1,6 @@
 * {
     color: white;
+    text-decoration: none;
 }
 
 body {
@@ -22,9 +23,14 @@ h1 {
     align-items: center;
 }
 
-p {
+main p{
     text-align: center;
-    text-decoration: none;
+    font-size: 26px;
+}
+
+main p a strong:hover {
+    text-decoration: underline;
+    color: red;
 }
 
 .voltar{
