@@ -8,29 +8,33 @@
     <style>
         #container {
             background-image: url(imagens/espaco.jpg);
-            height: 98vh;
-            background-size:cover;
-            position: relative;
-            background-attachment: fixed;
-            background-position: center top;
-            background-repeat: no-repeat;
+            background-size: 100% 100%;
 
+            position: relative;
+            height: 98vh;
+            
         }
 
         #conteudo {
-            
+            background-image: url(imagens/astronauta.png);
+            background-size: 100% 100%;
 
+            position: absolute;
+            height: 300px;
+            width: 500px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
         }
-
     </style>
 </head>
 <body>
     <section id="container">
         <article id="conteudo">
-            <img src="imagens/astronauta.png" alt="">
-        </article>
 
+        </article>
     </section>
-    
 </body>
 </html>
